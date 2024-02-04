@@ -15,8 +15,6 @@ const Favorites = () => {
               return (
                 <div key={photos.id} className="photos">
                   <img src={photos.src.portrait} alt={photos.alt} />
-                  <IconHeart liked={photos.liked} />
-                  <h3>{photos.alt}</h3>
                 </div>
               );
             })
